@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliksotel - Luxury Stays</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="test-0-header">
+        <div class="test-0-logo">Feliksotel</div>
+        <nav>
+            <a href="#promo" class="test-0-nav-1">Акции</a>
+            <a href="#search" class="test-0-nav-2">Поиск</a>
+            <a href="booking.html" class="test-0-nav-3">Бронирование</a>
+            <a href="login.html" class="test-0-nav-4">Личный кабинет</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Luxury Redefined</h1>
+        <div class="infographic" id="infographic">
+            <div class="infographic-item" id="duration">
+                <div class="circle"></div>
+                <p>Длительность</p>
+            </div>
+            <div class="infographic-item" id="guests">
+                <div class="circle"></div>
+                <p>Гости</p>
+            </div>
+            <div class="infographic-item" id="category">
+                <div class="circle"></div>
+                <p>Категория</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="search" class="test-0-search">
+        <h2>Найти идеальный номер</h2>
+        <form>
+            <input type="text" class="test-0-fg" placeholder="Город">
+            <input type="date" class="test-0-fd">
+            <input type="date" class="test-0-fat">
+            <select class="test-0-fd">
+                <option>Вместимость</option>
+                <option>1-2 человека</option>
+                <option>3-4 человека</option>
+                <option>5+ человек</option>
+            </select>
+            <select class="test-0-fa">
+                <option>Комфортность</option>
+                <option>Эконом</option>
+                <option>Стандарт</option>
+                <option>Люкс</option>
+            </select>
+            <input type="number" class="test-0-fper" placeholder="Количество человек">
+            <input type="number" class="test-0-fch" placeholder="Дети">
+            <label><input type="checkbox" class="test-0-fop"> Отчетные документы</label>
+            <button class="test-0-fbs" onclick="location.href='search.html'">Поиск</button>
+        </form>
+    </section>
+
+    <section id="promo" class="test-0-prom">
+        <h2>Акции</h2>
+        <div class="promo-grid">
+            <div class="promo-item">
+                <img src="https://via.placeholder.com/300" class="test-0-ai" alt="Акция 1">
+                <h3 class="test-0-an">Раннее бронирование</h3>
+                <p class="test-0-ad">Скидка 20% при бронировании за 3 месяца</p>
+                <button class="test-0-abm">Подробнее</button>
+            </div>
+            <div class="promo-item">
+                <img src="https://via.placeholder.com/300" class="test-0-ai" alt="Акция 2">
+                <h3 class="test-0-an">Долгий отпуск</h3>
+                <p class="test-0-ad">7+ ночей = бесплатный ужин</p>
+                <button class="test-0-abm">Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="test-0-feedback">
+        <h2>Подписка на акции</h2>
+        <form>
+            <input type="email" class="test-0-sie" placeholder="Email">
+            <button class="test-0-sbs">Подписаться</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="test-0-phone">8 (800) 300-25-11</div>
+        <nav>
+            <a href="http://feliks-m1.wsr.ru/return">Возврат</a>
+            <a href="http://feliks-m1.wsr.ru/#test-0-feedback">Обратная связь</a>
+        </nav>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
